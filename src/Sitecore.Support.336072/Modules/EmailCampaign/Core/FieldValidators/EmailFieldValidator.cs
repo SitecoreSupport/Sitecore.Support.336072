@@ -38,7 +38,9 @@ namespace Sitecore.Support.Modules.EmailCampaign.Core.FieldValidators
         public override void GetObjectData(SerializationInfo info, StreamingContext context)
         {
             Assert.ArgumentNotNull(info, "info");
-            info.AddValue("Name", this.Name);
+            #region commented the line since the same key-value is added in the base.GetObjectData method
+            //info.AddValue("Name", this.Name);
+            #endregion
             base.GetObjectData(info, context);
         }
 
