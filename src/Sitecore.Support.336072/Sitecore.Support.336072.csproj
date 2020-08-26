@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modules\EmailCampaign\Core\FieldValidators\EmailFieldValidator.cs" />
+    <Compile Include="Modules\EmailCampaign\Core\FieldValidators\UrlFieldValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
